@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76f4deb1-f8f9-4c29-ac99-beb8de561b71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Menu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/ARCADECLASSIC.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/smoptions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TODO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/SnakeSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/KeyboardConfigMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/OptionsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/PauseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Displayable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/FixedSizeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/GameEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Globals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/KL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/ML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/MouseButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/PanelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/ResourceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/SpriteButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/TextButton.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2RXKlblNDbshvZXkqXgpXcOc2YC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/grimlibot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Workspace/Menu/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="root.graphics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Menu\src\root" />
+      <recent name="D:\Workspace\Menu\src\root\util" />
+      <recent name="D:\Workspace\Menu\src\root\menu" />
+      <recent name="D:\Workspace\Menu\src\root\graphics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Menu\resources" />
+      <recent name="D:\Workspace\Menu\out\production\Menu\root" />
+      <recent name="D:\Workspace\Menu\out\production\Menu\root\graphics\images" />
+      <recent name="D:\Workspace\Menu\src\root\graphics\images" />
+      <recent name="D:\Workspace\Menu\out\production\Menu\root\graphics" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Menu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76f4deb1-f8f9-4c29-ac99-beb8de561b71" name="Changes" comment="" />
+      <created>1687391139669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687391139669</updated>
+      <workItem from="1687391140712" duration="14636000" />
+      <workItem from="1687478512401" duration="4811000" />
+      <workItem from="1687483337297" duration="18000" />
+      <workItem from="1687483363111" duration="9052000" />
+      <workItem from="1687565960845" duration="30885000" />
+      <workItem from="1687735385059" duration="3000" />
+      <workItem from="1687736359934" duration="13370000" />
+      <workItem from="1687997069219" duration="6168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
