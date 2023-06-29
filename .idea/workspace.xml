@@ -5,37 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76f4deb1-f8f9-4c29-ac99-beb8de561b71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Menu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ARCADECLASSIC.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/smoptions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TODO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/SnakeSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu/KeyboardConfigMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu/OptionsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu/PauseMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Displayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/FixedSizeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/GameEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Globals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/KL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/MouseButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Options.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/PanelHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ResourceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Scene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/SpriteButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/TextButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/SnakeSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/VectorSnake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +106,7 @@
       <workItem from="1687565960845" duration="30885000" />
       <workItem from="1687735385059" duration="3000" />
       <workItem from="1687736359934" duration="13370000" />
-      <workItem from="1687997069219" duration="6168000" />
+      <workItem from="1687997069219" duration="10575000" />
     </task>
     <servers />
   </component>
