@@ -5,17 +5,16 @@ import util.Displayable;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.security.Key;
 import java.util.LinkedList;
 import java.util.Random;
-import java.util.Vector;
 
-public class Game extends Displayable {
+public class Snake extends Displayable {
     private int snakeSize = 20;
     private int maxX = Options.SCREEN_WIDTH / snakeSize;
     private int maxY = Options.SCREEN_HEIGHT / snakeSize;
     private Direction currentDirection = Direction.RIGHT;
     private Direction lastMove = Direction.RIGHT;
-
     private Color snakeColor = Globals.niceBlue;
     private Color foodColor = Color.YELLOW;
     private int snakeRow = Options.SCREEN_HEIGHT / snakeSize;
@@ -25,21 +24,18 @@ public class Game extends Displayable {
     private VectorSnake foodLocation = null;
 
     private int grow = 3;
-
     private int score = 0 - grow;
     private LinkedList<VectorSnake> snake = new LinkedList();
 
     private double lastMovedDt = 0;
     // adjusting this sets the time between updates/moves for snake, in seconds?
     private double howFast = .2;
-
     private boolean goodGame = true;
 
-
-
-    public Game() {
+    public Snake() {
         spawnSnake();
-        // speed button like shift? (settings?) (maybe adds to score?)
+        //TODO not closing properly
+
         // difficulty settings? (adjusts speed)
         // set snake size in settings (adjusts how big window is)
     }
@@ -58,7 +54,9 @@ public class Game extends Displayable {
             } else {
                 Globals.ph.pauseScene(this);
             }
-        } else if (Globals.kl.isKeyPressed(KeyEvent.VK_UP)) {
+        }
+
+        if (Globals.kl.isKeyPressed(KeyEvent.VK_UP)) {
             if (currentDirection != Direction.DOWN) {
                 currentDirection = Direction.UP;
             }
@@ -76,6 +74,13 @@ public class Game extends Displayable {
                 currentDirection = Direction.RIGHT;
             }
         }
+
+        if (Globals.kl.isKeyPressed(KeyEvent.VK_SHIFT)) {
+            howFast = .1;
+        } else {
+            howFast = .2;
+        }
+
         lastMovedDt += dt;
         if (lastMovedDt >= howFast && goodGame) {
             lastMovedDt = 0;

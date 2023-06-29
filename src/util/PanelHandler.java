@@ -1,6 +1,6 @@
 package util;
 
-import game.Game;
+import game.Snake;
 import menu.KeyboardConfigMenu;
 import menu.MainMenu;
 import menu.OptionsMenu;
@@ -28,7 +28,7 @@ public class PanelHandler extends JPanel {
             case MAIN -> currentScene = new MainMenu();
             case OPTIONS -> currentScene = new OptionsMenu();
             case CONFIG -> currentScene = new KeyboardConfigMenu();
-            case GAME -> currentScene = new Game();
+            case GAME -> currentScene = new Snake();
             case EXIT -> Globals.ge.setRunning(false);
             case PAUSE -> currentScene = new PauseMenu();
             default -> System.out.println("Wrong scene? Error.");
